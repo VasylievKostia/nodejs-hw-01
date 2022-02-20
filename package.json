@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasylievKostia/nodejs-hw-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasylievKostia/nodejs-hw-01/issues"
+  },
+  "homepage": "https://github.com/VasylievKostia/nodejs-hw-01#readme",
+  "dependencies": {
+    "commander": "9.0.0",
+    "gh-pages": "^3.2.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
